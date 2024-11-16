@@ -1,4 +1,3 @@
-```markdown
 # ERINO - SDE Internship Assignment
 
 ## ⭐ Contact Management - Mini Feature of a CRM
