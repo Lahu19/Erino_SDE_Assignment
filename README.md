@@ -86,23 +86,27 @@ This assignment will be reviewed during a live coding session where additional f
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/contact-management.git
+   git clone https://github.com/Lahu19/Erino_SDE_Assignment.git
    ```
 2. Install dependencies:
    ```bash
-   cd contact-management
-   npm install
+   cd Erino_SDE_Assignment
+ 
    ```
 3. Start the backend server:
    ```bash
+   cd backend
+   npm i
    npm run start:server
    ```
 4. Start the frontend development server:
    ```bash
-   npm run start:client
+   cd frontend
+   npm i
+   npm run start
    ```
 5. Access the app at `http://localhost:3000`.
-
+6. Access the API on `http://localhost:4001`.
 ---
 
 ## ✨ Technical Decisions
@@ -117,24 +121,6 @@ This assignment will be reviewed during a live coding session where additional f
    - MongoDB chosen for its scalability and flexibility.
    - Mongoose for schema management.
 
----
+Feel free to add or use this Repo ✨
 
-## 🧗 Challenges and Solutions
 
-1. **Challenge:** Managing state across components for seamless UI updates.
-   **Solution:** Used React Context API for state management.
-2. **Challenge:** Validating and handling form inputs efficiently.
-   **Solution:** Used MUI’s form validation utilities and backend validation middleware.
-3. **Challenge:** Implementing pagination and sorting on the frontend.
-   **Solution:** Leveraged MUI Table with built-in pagination and sorting features.
-
----
-
-## 🔗 Repository
-
-[GitHub Repository](https://github.com/your-username/contact-management)
-
----
-
-Happy Coding! 🚀
-```
