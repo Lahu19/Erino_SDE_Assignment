@@ -21,20 +21,6 @@ This Contact Management feature is designed to simplify and enhance the process 
 
 ---
 
-## ❗ Important Note
-
-This assignment will be reviewed during a live coding session where additional features or modifications will be required. Ensure originality and personal effort while working on this project, as external help or automated tools could negatively impact your evaluation.
-
----
-
-## 🥇 Evaluation Criteria
-
-1. **Functionality:** Implementation of all CRUD operations.
-2. **UI Consistency:** Clean, user-friendly design with MUI components.
-3. **Code Quality:** Well-structured, modular, and adherent to best practices.
-4. **Problem-Solving:** Demonstrated approach to designing and implementing solutions.
-
----
 
 ## 🗒️ Specifications / Requirements
 
@@ -46,7 +32,6 @@ This assignment will be reviewed during a live coding session where additional f
   - **Contacts Table:**
     - Displays all contacts.
     - Includes action buttons for editing and deleting.
-    - Pagination and sorting for better usability.
 
 ### Backend
 - **Framework:** Node.js with Express.js
@@ -61,21 +46,11 @@ This assignment will be reviewed during a live coding session where additional f
   - Return meaningful error messages.
 
 ### Database
-- **Choice:** MongoDB
+- **Choice:** MongoDB Compass
 - **Reasoning:** MongoDB’s flexibility with schema-less document storage is ideal for a feature like Contact Management, where the structure of stored data may evolve.
 
 ---
 
-## 🚀 Project Submission
-
-1. **Repository:** Provide a link to the GitHub repository with the complete project code.
-2. **ReadMe:**
-   - Setup instructions to run the project.
-   - Database schema or example data.
-   - Explanation of major technical decisions.
-   - Challenges faced and their solutions.
-
----
 
 ## 💻 Setup Instructions
 
@@ -97,13 +72,13 @@ This assignment will be reviewed during a live coding session where additional f
    ```bash
    cd backend
    npm i
-   npm run start:server
+   node Express.js
    ```
 4. Start the frontend development server:
    ```bash
    cd frontend
    npm i
-   npm run start
+   npm start
    ```
 5. Access the app at `http://localhost:3000`.
 6. Access the API on `http://localhost:4001`.
